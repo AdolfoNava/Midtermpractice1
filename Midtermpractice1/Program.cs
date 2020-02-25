@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Midtermpractice1.Models;
+using System;
 
 namespace Midtermpractice1
 {
@@ -6,7 +7,9 @@ namespace Midtermpractice1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Courses OOP = new Courses();
+
+            Console.WriteLine(OOP.About());
         }
     }
 }
