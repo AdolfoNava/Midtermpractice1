@@ -4,9 +4,9 @@ using System.Text;
 
 namespace Midtermpractice1.Models
 {
-    public class Person
+    public abstract class Person
     {
-        public string FirstName,LastName, ID;
+        public string FirstName, LastName;
         public Person()
         {
             this.FirstName = "Jeff";
@@ -14,8 +14,13 @@ namespace Midtermpractice1.Models
             this.ID = "47167";
         }
         void About()
-        { 
-        
+        {
+
+        }
+
+        public void SayHello()
+        {
+            throw new System.NotImplementedException();
         }
     }
 }

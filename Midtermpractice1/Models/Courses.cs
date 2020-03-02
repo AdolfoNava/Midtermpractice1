@@ -13,9 +13,9 @@ namespace Midtermpractice1.Models
             this.CourseName = "Object Oritented Programming";
             this.CourseNumber = "PROG 201";
         }
-        public void About()
+        public About()
         {
-            
+            return"";
         }
     }
 }

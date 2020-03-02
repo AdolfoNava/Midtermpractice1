@@ -8,6 +8,7 @@ namespace Midtermpractice1
         static void Main(string[] args)
         {
             Courses OOP = new Courses();
+            Instructor Jim = new Instructor();
 
             Console.WriteLine(OOP.About());
         }
