@@ -4,18 +4,18 @@ using System.Text;
 
 namespace Midtermpractice1.Models
 {
-    class Courses
+    public class Courses
     {
-        string CourseName;
-        string CourseNumber;
+        public string CourseName;
+        public string CourseNumber;
         public Courses()
         {
             this.CourseName = "Object Oritented Programming";
             this.CourseNumber = "PROG 201";
         }
-        public About()
+        public string About()
         {
-            return"";
+            return"This is "+CourseName+" "+CourseNumber+" for the Spring semester.";
         }
     }
 }

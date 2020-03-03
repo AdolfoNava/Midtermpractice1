@@ -8,9 +8,17 @@ namespace Midtermpractice1
         static void Main(string[] args)
         {
             Courses OOP = new Courses();
-            Instructor Jim = new Instructor();
+            Courses ENG101 = new Courses() {CourseName ="Writing and Rhetoric I",CourseNumber = "101-01"};
 
-            Console.WriteLine(OOP.About());
+            Instructor Jeff = new Instructor("Jeff", "Meyers");
+            Jeff.ID = "10212";
+            Student Kevin = new Student("Kevin", "Martinez");
+            Kevin.ID = "00214";
+
+            
+
+            Console.WriteLine(Jeff.About());
+            Console.WriteLine(Kevin.About());
         }
     }
 }

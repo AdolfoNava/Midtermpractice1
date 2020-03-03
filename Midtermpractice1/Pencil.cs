@@ -10,12 +10,12 @@ namespace Midtermpractice1
 
         public Pencil()
         {
-            throw new System.NotImplementedException();
+            
         }
 
         public string About()
         {
-            throw new System.NotImplementedException();
+            return "";
         }
     }
 }

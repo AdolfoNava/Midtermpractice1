@@ -6,16 +6,16 @@ namespace Midtermpractice1
 {
     public class Instructor : AcademicPerson
     {
-        private int FacultyID;
+        
 
-        public  Instructor()
+        public  Instructor(string firstname,string lastname):base(firstname,lastname)
         {
             
         }
 
-        public string About()
+        public override string About()
         {
-            return"Hello my name is "+" my ID number is "+"";
+            return"Hello my name is "+FirstName+" "+LastName+" I am a teacher here in this school and my ID number is "+ID;
         }
     }
 }

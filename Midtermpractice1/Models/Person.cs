@@ -7,20 +7,20 @@ namespace Midtermpractice1.Models
     public abstract class Person
     {
         public string FirstName, LastName;
-        public Person()
+        public Person(string firstname,string lastname)
         {
-            this.FirstName = "Jeff";
-            this.LastName = "Meyers";
-            this.ID = "47167";
+            this.FirstName = firstname;
+            this.LastName = lastname;
+            
         }
-        void About()
+        public virtual string About()
         {
-
+            return "";
         }
 
         public void SayHello()
         {
-            throw new System.NotImplementedException();
+            
         }
     }
 }

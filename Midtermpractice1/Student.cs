@@ -6,22 +6,22 @@ namespace Midtermpractice1
 {
     public class Student : AcademicPerson
     {
-        public string StudentID;
+        
         private bool myPencil;
 
-        public string About()
+        public Student(string firstname,string lastname):base(firstname,lastname) 
         {
-            throw new System.NotImplementedException();
+        
+        }
+        public override string About()
+        {
+            return "Hello my name is "+FirstName+" "+LastName+" I am a student attending this school my ID number is "+ID;
         }
 
         public string Write()
         {
-            throw new System.NotImplementedException();
+            return "";
         }
 
-        public void Write()
-        {
-            throw new System.NotImplementedException();
-        }
     }
 }

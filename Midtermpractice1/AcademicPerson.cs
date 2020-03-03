@@ -6,9 +6,10 @@ namespace Midtermpractice1
 {
     public class AcademicPerson : Models.Person
     {
-        private string Courses;
+        public string Courses;
+        public string ID;
 
-        public AcademicPerson()
+        public AcademicPerson(string firstname,string lastname):base (firstname,lastname)
         {
 
         }
